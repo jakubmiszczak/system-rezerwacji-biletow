@@ -23,7 +23,7 @@ Pełna dokumentacja projektu znajduje się w pliku:
 cd backend
 
 # Windows
-mvnw.cmd spring-boot:run
+.\mvnw.cmd spring-boot:run
 
 # macOS / Linux
 ./mvnw spring-boot:run
