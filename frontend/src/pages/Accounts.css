@@ -1,0 +1,24 @@
+.accounts-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 60px);
+}
+
+.accounts-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loading, .error, .no-accounts {
+  text-align: center;
+  padding: 40px;
+  font-size: 16px;
+}
+
+.loading, .no-accounts {
+  color: #666;
+}
+
+.error {
+  color: #dc3545;
+} 

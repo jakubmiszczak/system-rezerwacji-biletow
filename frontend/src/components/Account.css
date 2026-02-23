@@ -1,0 +1,154 @@
+.account-item {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.account-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.account-header:hover {
+  background-color: #f8f9fa;
+}
+
+.account-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.account-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.expand-arrow {
+  color: #666;
+  transition: transform 0.2s ease;
+}
+
+.expand-arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.account-content {
+  padding: 0 20px 20px 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.reservations-title {
+  margin: 20px 0 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.loading, .error, .no-reservations {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.error {
+  color: #dc3545;
+}
+
+.reservations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reservation-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.reservation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.reservation-info {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  background-color: #f8d7da;
+}
+
+.tickets-section {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #dee2e6;
+}
+
+.tickets-title {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.tickets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ticket-item {
+  font-size: 13px;
+  color: #6c757d;
+  padding-left: 15px;
+  position: relative;
+}
+
+.ticket-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #adb5bd;
+} 
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #c3e6cb;
+}
